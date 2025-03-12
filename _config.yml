@@ -14,9 +14,9 @@ minimal: false             # use a dark header
 
 # Menu
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "marcoCV.pdf", title: "CV"}
+  - {file: "assets/marcoCV.pdf", title: "CV"}
   - {file: "README.md", title: "Projects"}
-  - {file: "README.md", title: "About me"}
+  - {file: "AboutMe.md", title: "About me"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:marcodelloro99@gmail.com"}
