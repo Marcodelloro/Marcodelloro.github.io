@@ -13,9 +13,9 @@ show_sidebar: false        # show a sidebar instead of the usual header
 minimal: false             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "assets/marcoCV.pdf", title: "CV"}
-  - {file: "Project.md", title: "Projects"}  # Assuming you have a projects page
-  - {file: "AboutMe.md", title: "About Me"}
+  - {file: "/assets/marcoCV.pdf", title: "CV"}
+  - {file: "/Project.md", title: "Projects"}  # Assuming you have a projects page
+  - {file: "/AboutMe.md", title: "About Me"}
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:marcodelloro99@gmail.com"}
