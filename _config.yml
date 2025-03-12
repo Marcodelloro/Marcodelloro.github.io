@@ -13,7 +13,7 @@ show_sidebar: false        # show a sidebar instead of the usual header
 minimal: false             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {title: "CV", url: "/cv2/"}
+  - {title: "CV", url: "/cv/"}
   - {title: "Projects", file: "Projects.md"}  # Assuming you have a projects page
   - {title: "More", file: "AboutMe.md"}
 
