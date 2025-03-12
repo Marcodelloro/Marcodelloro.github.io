@@ -7,7 +7,7 @@ title: "Curriculum"
     <div class="section-header">Education</div>
     <div class="content">
         <div class="text">
-            <p>I received my Ph.D. degree in Information Engineering in 2011 from the <a href="#">University of Padova</a> in Italy, under the supervision of <a href="#">Prof. Sandro Zampieri</a>.</p>
+            <p>I received my Ph.D. degree in Information Engineering in 2011 from the <a href="#">Unisversity of Padova</a> in Italy, under the supervision of <a href="#">Prof. Sandro Zampieri</a>.</p>
             <p>Before that, I received my M.Sc. degree in Automation Engineering, also from the <a href="#">University of Padova</a>. During my graduate studies in 2006/07, I was a visiting student at the <a href="#">University of California, San Diego</a>, where I wrote my M.Sc. thesis under the supervision of <a href="#">Prof. Miroslav Krstić</a>.</p>
         </div>
         <div class="logos">
