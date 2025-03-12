@@ -23,7 +23,7 @@ external:                  # shows a footer with social links - for available ic
   - {title: Mail, icon: envelope, url: "mailto:marcodelloro99@gmail.com"}
   - {title: Github, icon: github, url: "https://github.com/Marcodelloro"}
   - {title: LinkedIn, icon: linkedin, url: "https://www.linkedin.com/in/marco-d-590a36140/"}
-  - {title: X, icon: x-twitter, url: "/https://x.com/mvrcodelloro"}
+  - {title: X, icon: x, url: "/https://x.com/mvrcodelloro"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
