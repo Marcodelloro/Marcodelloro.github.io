@@ -5,7 +5,7 @@ layout: page
 ---
 
 <div style="display: flex; align-items: center; gap: 20px;">
-  <img src="assets/images/Marco.jpg">
+  <img src="/Users/marcodelloro/Desktop/Marcodelloro.github.io/assets/images/Marco.jpg">
   <div>
     <p>I am a wannabe PhD student in Control System theory, exploring new technologies, and constantly learning.</p>
     <p>Feel free to connect with me on <a href="https://www.linkedin.com/in/marco-d-590a36140/" target="_blank">LinkedIn</a> or follow me on <a href="https://x.com/mvrcodelloro" target="_blank">X (Twitter)</a>.</p>
