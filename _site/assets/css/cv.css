@@ -1,0 +1,106 @@
+/* CV section styling */
+.cv-section {
+    background-color: transparent; /* Matching the background color */
+    color: black;
+    padding: 5px 15px; /* Reduced padding to make it slimmer */
+    margin-bottom: 15px; /* Reduced margin for slimmer boxes */
+    border-radius: 6px; /* Slightly smaller rounded corners */
+    box-shadow: none; /* Remove the shadow to make it flatter */
+    border: 1px solid #34495e; /* Thin border to separate from background */
+}
+
+/* Smaller titles */
+.cv-section h2 {
+    font-size: 22px; /* Reduced font size */
+    margin-bottom: 1px;
+    margin-top: 5px;
+    border-bottom: 1px solid gainsboro; /* Lighter border */
+    padding-bottom: 8px;
+}
+
+/* Paragraph styling */
+.cv-section p {
+    font-size: 15px; /* Slightly smaller text */
+    line-height: 1.5;
+}
+
+.cv-section a {
+    color: #1abc9c;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.cv-section a:hover {
+    color: #16a085;
+    text-decoration: underline;
+}
+
+/* Body and layout adjustments */
+body {
+    background-color: #34495e; /* Matching the background color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 30px;
+    max-width: 1000px; /* Reduce the max width for a narrower look */
+    margin: 0 auto;
+}
+
+/* Box styling for Education section */
+.cv-box {
+    background-color: transparent; /* Transparent background to match the page */
+    color: black; /* Light text color for contrast */
+    padding: 5px 15px; /* Reduced padding to make it slimmer */
+    margin-bottom: 15px; /* Reduced margin for slimmer boxes */
+    border-radius: 6px; /* Slightly smaller rounded corners */
+    box-shadow: none; /* Remove the shadow to make it flatter */
+    border: 1px solid #34495e; /* Thin border to separate from background */
+}
+
+.cv-box h2 {
+    font-size: 22px; /* Reduced font size */
+    margin-bottom: 1px;
+    margin-top: 5px;
+    border-bottom: 1px solid gainsboro; /* Lighter border */
+    padding-bottom: 8px;
+}
+
+/* Paragraph styling */
+.cv-box p {
+    font-size: 15px; /* Slightly smaller text */
+    line-height: 1.5;
+}
+
+.cv-box a {
+    color: #1abc9c;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Bullet list styling */
+.cv-box ul {
+    list-style-type: disc; /* Default bullet points */
+    padding-left: 20px; /* Space from the left edge of the box */
+    margin-top: 15; /* Remove default margin at the top */
+    margin-bottom: 0; /* Remove default margin at the bottom */
+}
+
+.cv-box li {
+    font-size: 15px; /* Slightly smaller text */
+    line-height: 1.6; /* Line spacing for readability */
+    margin-bottom: 10px; /* Space between list items */
+}
+
+.cv-box a {
+    color: #1abc9c;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.cv-box a:hover {
+    color: #16a085;
+    text-decoration: underline;
+}
