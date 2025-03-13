@@ -164,7 +164,7 @@ a:hover .icon { color: #8b8c8f; }
 
 .highlight .gi { color: #a6e22e; }
 
-body { box-shadow: 0 0 0.3em #c5c7cf; }
+body { box-shadow: #f5f5f5; }
 
 body > header, body > footer { background: #e8e8e8; color: #f5f5f5; }
 

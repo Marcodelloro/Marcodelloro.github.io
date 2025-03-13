@@ -1,14 +1,13 @@
 /* Ensure html and body take full height */
 html, body {
     height: 100%;
-    margin: 0;  /* Remove unnecessary margin */
-    padding: 0; /* Remove unnecessary padding */
+    margin: 0;  
+    padding: 0; 
     display: flex;
     flex-direction: column;
 
 }
 
-/* Main section takes full viewport height, centers content */
 main {
     display: flex;
     flex-direction: column;
@@ -31,7 +30,6 @@ h1 {
 p {
     font-size: 1rem;         /* Slightly larger paragraph text */
     margin: 10px 0;             /* Space between paragraphs */
-    color: #666;                /* Softer text color */
     max-width: 800px;           /* Prevent text from stretching too wide */
     line-height: 1.6;           /* Improved line spacing */
 }
