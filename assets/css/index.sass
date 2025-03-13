@@ -12,31 +12,33 @@
 body > header
   background: $light
   color: $dark
-  box-shadow: $light
   border-bottom: 1px solid reduce(14)
 
 body > article
   background: lighten($light, 10%)
   color: $dark
-  border-bottom: 1px solid reduce(14)
+
+body > footer
+  background: $light
+  color: $dark
+  border-top: 1px solid reduce(14)
+
 
 {% else %}
 
 body > article
   background: lighten($light, 10%)
   color: $dark
-  border-bottom: 1px solid reduce(14)
 
 body > header
   background: $light
   color: $dark
-  ox-shadow: $light
   border-bottom: 1px solid reduce(14)
-{% endif %}
 
 body > footer
   background: $light
   color: $dark
-  box-shadow: $light
   border-top: 1px solid reduce(14)
-  opacity: .9
+
+{% endif %}
+

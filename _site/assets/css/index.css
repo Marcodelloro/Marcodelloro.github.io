@@ -166,10 +166,10 @@ a:hover .icon { color: #8b8c8f; }
 
 @media (min-width: 40em) { body > header, body > article, body > footer { padding: 1.75em calc(40% - 17em); } }
 
-body > article { background: white; color: #212228; border-bottom: 1px solid rgba(139, 140, 143, 0.14); }
+body > article { background: white; color: #212228; }
 
-body > header { background: #f5f5f5; color: #212228; ox-shadow: #f5f5f5; border-bottom: 1px solid rgba(139, 140, 143, 0.14); }
+body > header { background: #f5f5f5; color: #212228; border-bottom: 1px solid rgba(139, 140, 143, 0.14); }
 
-body > footer { background: #f5f5f5; color: #212228; box-shadow: #f5f5f5; border-top: 1px solid rgba(139, 140, 143, 0.14); opacity: .9; }
+body > footer { background: #f5f5f5; color: #212228; border-top: 1px solid rgba(139, 140, 143, 0.14); }
 
 /*# sourceMappingURL=index.css.map */
