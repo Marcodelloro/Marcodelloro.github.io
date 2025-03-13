@@ -16,7 +16,7 @@ main {
     height: 100vh;              /* Full viewport height */
     text-align: center;         /* Center text inside the main section */
     padding: 20px;
-    background-color: transparent;  /* Light background color for contrast */
+    background-color:#ffff; /* Light background color for contrast */
 }
 
 /* Title */
