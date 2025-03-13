@@ -22,9 +22,9 @@ main {
 
 /* Title */
 h1 {
-    font-size: 1rem;            /* Large title */
+    font-size: 1rem;         
     margin: 0 0 0 0;         /* Space below the title */
-    color: #333;                /* Dark color for title */
+    color: transparent;                /* Dark color for title */
 }
 
 /* Paragraph text */

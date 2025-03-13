@@ -1,12 +1,12 @@
 /* CV section styling */
 .cv-section {
     background-color: transparent; /* Matching the background color */
-    color: black;
+    color:  #212228;
     padding: 5px 15px; /* Reduced padding to make it slimmer */
     margin-bottom: 15px; /* Reduced margin for slimmer boxes */
     border-radius: 6px; /* Slightly smaller rounded corners */
     box-shadow: none; /* Remove the shadow to make it flatter */
-    border: 1px solid #34495e; /* Thin border to separate from background */
+    border: 1px solid  #212228 ; /* Thin border to separate from background */
 }
 
 /* Smaller titles */
