@@ -1,16 +1,36 @@
-{%- assign posts = paginator.posts | default: site.posts -%}
-{% for post in posts %}
-  <article>
-    {% include meta.html post=post preview=true %}
-    {{ post.excerpt }}
-    <div class="more"><a href="{{ post.url | relative_url }}">read more</a></div>
-  </article>
-{% endfor %}
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+<head>
+    <meta charset="{{ site.encoding }}">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title | escape }} | {{ site.title | escape }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
 
-{% if paginator.total_pages > 1 %}
-  <footer>
-    {% if paginator.previous_page %}<a href="{{ paginator.previous_page_path | relative_url }}">« newer posts</a>{% else %}<span></span>{% endif %}
-    <span>page {{ paginator.page }} of {{ paginator.total_pages }}</span>
-    {% if paginator.next_page %}<a href="{{ paginator.next_page_path | relative_url }}">older posts »</a>{% else %}<span></span>{% endif %}
-  </footer>
-{% endif %}
+    <main>
+        <h1>Hi, I am Marco, welcome to My Website! </h1>
+        <div style="display: flex; align-items: center; gap: 20px; margin-top: 20px;">
+            <div class="wrap">
+                <img src="/assets/Marco.jpg" class="myImage">
+            </div>
+            <div style="text-align: left;">
+                <p>I am a wannabe PhD student in Control System theory, exploring new technologies, and constantly learning.</p>
+                <p>Feel free to connect with me on <a href="https://www.linkedin.com/in/marco-d-590a36140/" target="_blank">LinkedIn</a> or follow me on <a href="https://x.com/mvrcodelloro" target="_blank">X (Twitter)</a>.</p>
+            </div>
+        </div>
+
+        <!-- Divider line -->
+        <hr class="divider">
+        <!-- News Section -->
+        <section id="news">
+            <h2>Latest News</h2>
+            <ul>
+                <li>
+                    <strong>March 2025:</strong> Currently working on getting a PhD in Control Systems.
+            </ul>
+        </section>
+    </main>
+
+</body>
+</html>

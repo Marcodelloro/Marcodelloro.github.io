@@ -1,10 +1,16 @@
 title: "Marco Dell'Oro"
 author: "Marco Dell'Oro"
-description: "Made with <b style=\"color: #f45;\">&lt;3</b>"
+description: "<span style='font-size: 14px;'>&#169; Marco Dell'Oro, <i>latest update March 2025</i></span>"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
 date_format: "%B %d, %Y"
+
+# Layout
+show_excerpts: true        # show article excerpts on the home page
+show_frame: false           # adds a gray frame to the site
+show_sidebar: false        # show a sidebar instead of the usual header
+minimal: false             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
   - {title: "CV", url: "/cv/"}

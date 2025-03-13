@@ -49,6 +49,10 @@ body {
     margin: 0 auto;
 }
 
+.myImage {
+    margin: 0px 0px 0px -120px;
+}
+
 /* Box styling for Education section */
 .cv-box {
     background-color: transparent; /* Transparent background to match the page */
