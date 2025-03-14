@@ -23,7 +23,6 @@ body > footer
   color: $dark
   border-top: 1px solid reduce(14)
 
-
 {% else %}
 
 body > article
@@ -45,8 +44,9 @@ body > footer
 body
   display: flex
   flex-direction: column  
-  min-height: 100vh 
-  justify-content: space-between  
+  justify-content:flex
+  min-height: 100vh
+
 
 .home-page
   padding: 1.75em calc(40% - 17em)
@@ -54,10 +54,10 @@ body
   flex-direction: column
   align-items: center
   text-align: center
-  min-height: 100vh
   justify-content: flex-start 
   background: lighten($light, 10%)
   color: $dark
+  flex-grow: 1
 
 h1
   font-size: 1.5rem
@@ -75,20 +75,31 @@ h1
   text-align: left
 
 .wrap
-  width: 250px
-  height: 250px
+  width: 280px
+  height: 300px
   overflow: hidden
-  border: 1px solid black
+  border: none
   display: flex
   justify-content: center
   align-items: center
 
   img
-    width: 180% 
-    height: 180%  
+    width: 200% 
+    height: 200%  
     object-fit: cover 
     object-position: 20% top 
     margin: 0 0 0 0
+
+.info
+  max-width: 400px
+  text-align: left    
+
+a
+  color:  #0e866e;
+
+a:hover
+  color: #0e866e;
+  text-decoration: underline 
 
 .divider
   width: 100%
@@ -104,37 +115,38 @@ h1
     list-style: none
   li
     font-size: 1rem
-    margin-bottom: 10px
 
 
-@media screen and (max-width: 600px)  /* Adjust based on your target mobile device width */
+
+@media screen and (max-width: 600px)
   .profile-container
-    flex-direction: column    /* Stack the image and text vertically on mobile */
-    align-items: center       /* Center the items */
-    gap: 15px                 /* Adjust gap to suit mobile screen */
+    flex-direction: column 
+    align-items: center 
+    gap: 15px
   
   .wrap
-    width: 120px              /* Adjust image size for mobile */
-    height: 120px             /* Adjust image size for mobile */
+    width: 250px
+    height: 250px
   
   .myImage
-    object-fit: cover         /* Ensure image fills the container and doesn't stretch */
-    object-position: top      /* Crop from the top if necessary */
+    object-fit: cover         
+    object-position: top
 
   h1
-    font-size: 1.5rem         /* Reduce title font size on mobile */
-    margin-bottom: 10px       /* Adjust spacing for mobile */
+    font-size: 1.5rem
+    margin-bottom: 10px
 
   .info
-    max-width: 90%            /* Allow more width for text on mobile */
-    font-size: 0.9rem         /* Adjust font size for mobile readability */
+    max-width: 80% 
+    font-size: 0.9rem
 
   .divider
-    width: 100%               /* Full-width divider on mobile */
-    margin: 20px auto         /* Adjust margin for mobile screens */
+    width: 100% 
+    margin: 20px auto
 
   #news
     h2
-      font-size: 1.25rem      /* Slightly smaller heading on mobile */
+      font-size: 1.25rem
     li
-      font-size: 0.9rem       /* Adjust list item font size for better readability */
+      font-size: 0.9rem
+      max-width: 90% 
