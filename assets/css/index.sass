@@ -52,7 +52,7 @@ body
   padding: 1.75em calc(40% - 17em)
   display: flex
   flex-direction: column
-  align-items: top
+  align-items: center
   text-align: center
   min-height: 100vh
   justify-content: flex-start 
@@ -105,3 +105,36 @@ h1
   li
     font-size: 1rem
     margin-bottom: 10px
+
+
+@media screen and (max-width: 600px)  /* Adjust based on your target mobile device width */
+  .profile-container
+    flex-direction: column    /* Stack the image and text vertically on mobile */
+    align-items: center       /* Center the items */
+    gap: 15px                 /* Adjust gap to suit mobile screen */
+  
+  .wrap
+    width: 120px              /* Adjust image size for mobile */
+    height: 120px             /* Adjust image size for mobile */
+  
+  .myImage
+    object-fit: cover         /* Ensure image fills the container and doesn't stretch */
+    object-position: top      /* Crop from the top if necessary */
+
+  h1
+    font-size: 1.5rem         /* Reduce title font size on mobile */
+    margin-bottom: 10px       /* Adjust spacing for mobile */
+
+  .info
+    max-width: 90%            /* Allow more width for text on mobile */
+    font-size: 0.9rem         /* Adjust font size for mobile readability */
+
+  .divider
+    width: 100%               /* Full-width divider on mobile */
+    margin: 20px auto         /* Adjust margin for mobile screens */
+
+  #news
+    h2
+      font-size: 1.25rem      /* Slightly smaller heading on mobile */
+    li
+      font-size: 0.9rem       /* Adjust list item font size for better readability */
