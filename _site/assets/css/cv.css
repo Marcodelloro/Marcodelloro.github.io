@@ -25,13 +25,13 @@
 }
 
 .cv-section a {
-    color: #1abc9c;
+    color: #0e866e;
     text-decoration: none;
     transition: color 0.3s ease-in-out;
 }
 
 .cv-section a:hover {
-    color: #16a085;
+    color: #0e866e;
     text-decoration: underline;
 }
 
