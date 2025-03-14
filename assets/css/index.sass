@@ -42,3 +42,70 @@ body > footer
 
 {% endif %}
 
+body
+  display: flex
+  flex-direction: column  
+  min-height: 100vh 
+  justify-content: space-between  
+
+
+.home-page
+  display: flex
+  flex-direction: column
+  align-items: top
+  text-align: center
+  min-height: 100vh
+  justify-content: space-between  
+  padding: 20px
+  background: lighten($light, 10%)
+
+h1
+  font-size: 2rem
+  margin-bottom: 100px
+
+.profile-container
+  display: flex
+  flex-direction: row
+  align-items: center
+  justify-content: center
+  gap: 10px
+  max-width: 900px
+  text-align: left
+
+.wrap
+  width: 200px
+  height: 280px
+  overflow: hidden
+  border: 2px solid black
+  display: flex
+  justify-content: center
+  align-items: center
+
+  img
+    width: 180% 
+    height: 180%  
+    object-fit: cover 
+    object-position: 20% top 
+    margin: 0 0 0 0
+.info
+  max-width: 500px
+
+.divider
+  width: 100%
+  margin: 40px auto
+  border: none
+  border-top: 2px solid #ccc
+
+#news
+  text-align: center
+  max-width: 800px
+  margin: 0 auto
+  h2
+    font-size: 1.5rem
+    margin-bottom: 100px
+  ul
+    list-style: none
+    padding: 0
+  li
+    font-size: 1rem
+    margin-bottom: 10px
