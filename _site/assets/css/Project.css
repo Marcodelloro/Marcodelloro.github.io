@@ -1,0 +1,41 @@
+/* CV section styling */
+.proj-section {
+    background-color: transparent; /* Matching the background color */
+    color:  #212228;
+    padding: 5px 15px; /* Reduced padding to make it slimmer */
+    margin-bottom: 15px; /* Reduced margin for slimmer boxes */
+    border-radius: 6px; /* Slightly smaller rounded corners */
+    box-shadow: none; /* Remove the shadow to make it flatter */
+    border: 1px solid  #212228 ; /* Thin border to separate from background */
+}
+
+.proj-section h2 {
+    font-size: 22px; /* Reduced font size */
+    margin-bottom: 1px;
+    margin-top: 5px;
+    border-bottom: 1px solid gainsboro; /* Lighter border */
+    padding-bottom: 8px;
+}
+
+.proj-section p {
+    font-size: 15px; /* Slightly smaller text */
+    line-height: 1.5;
+}
+
+.proj-section a {
+    color: #0e866e;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.proj-section a:hover {
+    color: #0e866e; 
+    text-decoration: underline;
+}
+
+.proj-section img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
