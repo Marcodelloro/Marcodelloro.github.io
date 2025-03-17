@@ -4,7 +4,7 @@ permalink: /projects/
 layout: page
 ---
 
-<div class="proj-section">
+<div class="cv-section">
     <img src="/assets/Proj1.svg" alt="Project 1">
     <div class="proj-content">
         <h2>MPPC: Model Predictive Pandemic Control</h2>
