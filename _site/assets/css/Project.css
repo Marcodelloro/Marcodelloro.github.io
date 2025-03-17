@@ -1,41 +1,49 @@
-/* CV section styling */
+/* Project Section Styling */
 .proj-section {
-    background-color: transparent; /* Matching the background color */
-    color:  #212228;
-    padding: 5px 15px; /* Reduced padding to make it slimmer */
-    margin-bottom: 15px; /* Reduced margin for slimmer boxes */
-    border-radius: 6px; /* Slightly smaller rounded corners */
-    box-shadow: none; /* Remove the shadow to make it flatter */
-    border: 1px solid  #212228 ; /* Thin border to separate from background */
+    display: flex; /* Enables horizontal layout */
+    align-items: center; /* Aligns image and text */
+    background-color: #f8f9fa; /* Light gray for visibility */
+    color: #212228;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #212228; /* Thicker border */
+    max-width: 800px;
 }
 
-.proj-section h2 {
-    font-size: 22px; /* Reduced font size */
-    margin-bottom: 1px;
-    margin-top: 5px;
-    border-bottom: 1px solid gainsboro; /* Lighter border */
-    padding-bottom: 8px;
+/* Image inside project box */
+.proj-section img {
+    width: 220px; 
+    height: 180px;
+    border-radius: 6px;
+    margin-right: 15px; /* Space between image and text */
 }
 
-.proj-section p {
-    font-size: 15px; /* Slightly smaller text */
+/* Text content on the right */
+.proj-content {
+    flex: 1;
+    text-align: left;
+}
+
+.proj-content h2 {
+    font-size: 22px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 5px;
+}
+
+.proj-content p {
+    font-size: 15px;
     line-height: 1.5;
 }
 
-.proj-section a {
+.proj-content a {
     color: #0e866e;
     text-decoration: none;
     transition: color 0.3s ease-in-out;
 }
 
-.proj-section a:hover {
-    color: #0e866e; 
+.proj-content a:hover {
+    color: #0e866e;
     text-decoration: underline;
-}
-
-.proj-section img {
-    width: 200px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 8px;
 }

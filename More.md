@@ -7,6 +7,6 @@ layout: page
 <div style="display: flex; align-items: center; gap: 20px;">
 
   <div>
-    <p>I reall like ramen and cats.</p>
+    <p>I like ramen and cats.</p>
   </div>
 </div>

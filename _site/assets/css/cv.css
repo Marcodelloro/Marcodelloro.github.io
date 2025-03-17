@@ -18,10 +18,21 @@
     padding-bottom: 8px;
 }
 
+.cv-section img {
+    width: 180px; 
+    height: 180px; 
+    border-radius: 6px;
+}
+
 /* Paragraph styling */
 .cv-section p {
     font-size: 15px; /* Slightly smaller text */
     line-height: 1.5;
+}
+
+.cv-section description {
+    flex: 1;
+    text-align: left;
 }
 
 .cv-section a {
@@ -31,14 +42,13 @@
 }
 
 .cv-section a:hover {
-    color: #0e866e;
+    color: #0e866e; 
     text-decoration: underline;
 }
 
 /* Body and layout adjustments */
 body {
     background-color: #34495e; /* Matching the background color */
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -108,3 +118,5 @@ body {
     color: #16a085;
     text-decoration: underline;
 }
+
+
