@@ -3,7 +3,6 @@
     display: flex; /* Enables horizontal layout */
     align-items: center; /* Aligns image and text */
     background-color: #f8f9fa; /* Light gray for visibility */
-    color: #212228;
     padding: 10px 15px;
     margin-bottom: 15px;
     border-radius: 6px;
@@ -46,4 +45,27 @@
 .proj-content a:hover {
     color: #0e866e;
     text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .proj-section {
+        flex-direction: column; /* Stack image and text vertically */
+        text-align: center;
+        padding: 10px;
+    }
+
+    .proj-section img {
+        width: 100%; /* Make image take full width */
+        height: auto; /* Keep aspect ratio */
+        margin-bottom: 10px;
+        display: block; /* Make the image a block element */
+        margin-left: auto; /* Center the image */
+        margin-right: auto; /* Center the image */
+
+    }
+
+    .proj-content {
+        width: 100%;
+        text-align: center;
+    }
 }
