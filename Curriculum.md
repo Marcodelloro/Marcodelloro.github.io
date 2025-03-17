@@ -6,7 +6,7 @@ permalink: /cv/
 
 <div class="cv-section">
   <h2>Short Bio</h2>
-  <p>I received my B.Sc. degree in Industrial Engineering - Mechanical Engineering and my M.Sc. degree in Mechanical Engineering, both from <a href="#">Politecnico di Milano</a>.</p>
+  <p>I received my B.Sc. degree in Industrial Engineering - Mechanical Engineering and my M.Sc. degree in Mechanical Engineering, both from <a href="https://www.mecc.polimi.it/">Politecnico di Milano</a>.</p>
   <p>I've been a visiting M.Sc. thesis student at the <a href="https://www.tue.nl/en/research/research-groups/control-systems-technology">Control System Technology Laboratory (CST)</a> of Eindhoven University of Technology, under the supervision of <a href="https://www.tue.nl/en/research/researchers/mauro-salazar">Prof. Mauro Salazar</a>. From May to December 2024, I held a Research and Teaching assistant position at the CST Lab.</p>
   <p>My research interests include optimal control theory, uncertainty modelling and distributionally robust optimization.</p>
 </div>
