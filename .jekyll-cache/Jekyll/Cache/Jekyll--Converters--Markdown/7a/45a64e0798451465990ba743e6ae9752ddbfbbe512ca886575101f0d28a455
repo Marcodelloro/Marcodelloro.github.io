@@ -1,4 +1,4 @@
-I"Œ<div class="cv-section">
+I"N<div class="cv-section">
   <h2>Short Bio</h2>
   <p>I received my B.Sc. degree in Industrial Engineering - Mechanical Engineering and my M.Sc. degree in Mechanical Engineering, both from <a href="https://www.mecc.polimi.it/">Politecnico di Milano</a>.</p>
   <p>I've been a visiting M.Sc. thesis student at the <a href="https://www.tue.nl/en/research/research-groups/control-systems-technology">Control System Technology Laboratory (CST)</a> of Eindhoven University of Technology, under the supervision of <a href="https://www.tue.nl/en/research/researchers/mauro-salazar">Prof. Mauro Salazar</a>. From May to December 2024, I held a Research and Teaching assistant position at the CST Lab.</p>
@@ -15,11 +15,15 @@
 </div>
 
 <div class="cv-section">
-  <h2>Publications</h2>
-  <p>There are No publications yet... </p>
-</div>
+    <h2>Publications</h2>
+    <p>D. Herceg, <strong>M. Dell'Oro</strong>, R. Bertollo, F. Miura, P. de Klaver, V. Breschi, D. Krishnamoorthy, M. Salazar <br />
+    "A Scenario-based Model Predictive Control Scheme for Pandemic Response through Non-pharmaceutical Interventions", <em>2025 9th IEEE Conference on Control Technology and Applications (CCTA)</em>.
+    <h3>&lt;img src="/assets/arxiv-logo.svg" alt="arXiv Logo" style="height: 1em; vertical-align: middle;&gt; <h3>
+    &lt;/p&gt;
+&lt;/div&gt;
 
 <div style="text-align: center; margin-top: 20px;">
   <a href="/assets/marcoCV.pdf" style="font-style: italic; color: #bdc3c7; text-decoration: none;">You can also download my full CV here</a>
 </div>
+</h3></h3></p></div>
 :ET

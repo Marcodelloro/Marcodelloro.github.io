@@ -19,13 +19,14 @@ permalink: /cv/
     <li><strong>B.Eng. in Industrial Engineering - Mechanical Engineering</strong>, September 2018 - September 2021<br><em>Politecnico di Milano, Italy</em></li>
   </ul>
 </div>
-
 <div class="cv-section">
-  <h2>Publications</h2>
-  <p>D. Herceg, <strong>M. Dell'Oro</strong>, R. Bertollo, F. Miura, P. de Klaver, V. Breschi, D. Krishnamoorthy, M. Salazar <br>
-"A Scenario-based Model Predictive Control Scheme for Pandemic Response through Non-pharmaceutical Interventions", <em>2025 9th IEEE Conference on Control Technology and Applications (CCTA)</em>. </p>
+    <h2>Publications</h2>
+    <p>D. Herceg, <strong>M. Dell'Oro</strong>, R. Bertollo, F. Miura, P. de Klaver, V. Breschi, D. Krishnamoorthy, M. Salazar <br>
+    "A Scenario-based Model Predictive Control Scheme for Pandemic Response through Non-pharmaceutical Interventions", <em>2025 9th IEEE Conference on Control Technology and Applications (CCTA)</em>.<br>
+    <a href="https://arxiv.org/abs/2506.17972" target="_blank" rel="noopener noreferrer">
+         <img src="/assets/arxiv-logo.svg" alt="arXiv Logo" style="height: 1.2em; width:3em; vertical-align: -0.8em; border: 1px solid black;"> </a>
+    </p>
 </div>
-
 <div style="text-align: center; margin-top: 20px;">
   <a href="/assets/marcoCV.pdf" style="font-style: italic; color: #bdc3c7; text-decoration: none;">You can also download my full CV here</a>
 </div>
